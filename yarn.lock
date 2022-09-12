@@ -241,6 +241,11 @@
   resolved "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.14.5.tgz#5ac822ce97eec46741ab70a517971e443a70c5a9"
   integrity sha512-/37qQCE3K0vvZKwoK4XU/irIJQdIfCJuhU5eKnNxpFDsOkgFaUAwbv+RYw6eYgsC0E4hS7r5KqGULUogqui0fQ==
 
+"@babel/helper-plugin-utils@^7.18.6":
+  version "7.19.0"
+  resolved "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.19.0.tgz#4796bb14961521f0f8715990bee2fb6e51ce21bf"
+  integrity sha512-40Ryx7I8mT+0gaNxm8JGTZFUITNqdLAgdg0hXzeVZxVD6nFsdhQvip6v8dqkRHzsz1VFpFAaOCHNn0vKBL7Czw==
+
 "@babel/helper-remap-async-to-generator@^7.13.0":
   version "7.13.0"
   resolved "https://registry.npmjs.org/@babel/helper-remap-async-to-generator/-/helper-remap-async-to-generator-7.13.0.tgz#376a760d9f7b4b2077a9dd05aa9c3927cadb2209"
@@ -778,6 +783,13 @@
   integrity sha512-/KY2hbLxrG5GTQ9zzZSc3xWiOy379pIETEhbtzwZcw9rvuaVV4Fqy7BYGYOWZnaoXIQYbbJ0ziXLa/sKcGCYEQ==
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
+
+"@babel/plugin-transform-object-assign@^7.8.3":
+  version "7.18.6"
+  resolved "https://registry.npmjs.org/@babel/plugin-transform-object-assign/-/plugin-transform-object-assign-7.18.6.tgz#7830b4b6f83e1374a5afb9f6111bcfaea872cdd2"
+  integrity sha512-mQisZ3JfqWh2gVXvfqYCAAyRs6+7oev+myBsTwW5RnPhYXOTuCEw2oe3YgxlXMViXUS53lG8koulI7mJ+8JE+A==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.18.6"
 
 "@babel/plugin-transform-object-super@^7.12.13":
   version "7.12.13"
@@ -7793,8 +7805,7 @@ eslint-module-utils@^2.6.1:
     pkg-dir "^2.0.0"
 
 "eslint-plugin-ember-data@link:./packages/unpublished-eslint-rules":
-  version "0.0.0"
-  uid ""
+  version "4.2.0-alpha.0"
 
 eslint-plugin-ember@^10.3.0, eslint-plugin-ember@^10.4.1:
   version "10.5.1"
@@ -7838,13 +7849,13 @@ eslint-plugin-import@^2.22.1:
     resolve "^1.20.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-mocha@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-mocha/-/eslint-plugin-mocha-9.0.0.tgz#b4457d066941eecb070dc06ed301c527d9c61b60"
-  integrity sha512-d7knAcQj1jPCzZf3caeBIn3BnW6ikcvfz0kSqQpwPYcVGLoJV5sz0l0OJB2LR8I7dvTDbqq1oV6ylhSgzA10zg==
+eslint-plugin-mocha@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.npmjs.org/eslint-plugin-mocha/-/eslint-plugin-mocha-10.1.0.tgz#69325414f875be87fb2cb00b2ef33168d4eb7c8d"
+  integrity sha512-xLqqWUF17llsogVOC+8C6/jvQ+4IoOREbN7ZCHuOHuD6cT5cDD4h7f2LgsZuzMAiwswWE21tO7ExaknHVDrSkw==
   dependencies:
     eslint-utils "^3.0.0"
-    ramda "^0.27.1"
+    rambda "^7.1.0"
 
 eslint-plugin-node@^11.1.0:
   version "11.1.0"
@@ -10374,6 +10385,11 @@ jest-worker@^26.6.2:
     "@types/node" "*"
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
+
+jquery@^3.5.1:
+  version "3.6.1"
+  resolved "https://registry.npmjs.org/jquery/-/jquery-3.6.1.tgz#fab0408f8b45fc19f956205773b62b292c147a16"
+  integrity sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==
 
 js-string-escape@^1.0.1:
   version "1.0.1"
@@ -13219,10 +13235,10 @@ qunit@^2.15.0:
     node-watch "0.7.1"
     tiny-glob "0.2.8"
 
-ramda@^0.27.1:
-  version "0.27.1"
-  resolved "https://registry.npmjs.org/ramda/-/ramda-0.27.1.tgz#66fc2df3ef873874ffc2da6aa8984658abacf5c9"
-  integrity sha512-PgIdVpn5y5Yns8vqb8FzBUEYn98V3xcPgawAkkgj0YJ0qDsnHCiNmZYfOGMgOvoB0eWFLpYbhxUR3mxfDIMvpw==
+rambda@^7.1.0:
+  version "7.2.1"
+  resolved "https://registry.npmjs.org/rambda/-/rambda-7.2.1.tgz#c533f6e2def4edcd59f967df938ace5dd6da56af"
+  integrity sha512-Wswj8ZvzdI3VhaGPkZAxaCTwuMmGtgWt7Zxsgyo4P+iTmVnkojvyWaOep5q3ZjMIecW0wtQa66GWxaKkZ24RAA==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"
